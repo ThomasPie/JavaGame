@@ -144,6 +144,7 @@ public class GameView extends BorderPane {
         }
 
         this.lbl = new Label(model.getQuestionAsked().get(model.getCurrentQuestionIndex()));
+        this.speler = new Speler();
         this.playerName = new Label(speler.naam);
         this.scoreLbl = new Label("Score!");
         this.timeLbl = new Label("Time!");
