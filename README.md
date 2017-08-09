@@ -1,6 +1,8 @@
 # JavaGame
 public class Main extends Application{
-    @Override
+   
+   @Override
+   
     public void start(Stage primaryStage) throws Exception {
         //GameView view = new GameView();
         StartView view = new StartView();
