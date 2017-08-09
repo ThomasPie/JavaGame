@@ -26,6 +26,7 @@ public class Main extends Application{
 
 
 public class StartView extends VBox {
+
     private Label nameLbl = new Label("Name");
     private TextField playerName = new TextField();
     private ToggleButton[] choice = new ToggleButton[3];
@@ -93,6 +94,7 @@ public class StartView extends VBox {
 ----------------------------------------------------------------------------------------------------------
 
 public class StartPresenter {
+
     private Model model;
     private StartView startView;
     private Speler speler;
@@ -120,6 +122,7 @@ public class StartPresenter {
 ---------------------------------------------------------------------------------------------------------------
 
 public class GameView extends BorderPane {
+
     private Model model;
     private Button[] statement = new Button[7];
     private Label lbl = new Label();
@@ -193,6 +196,7 @@ public class GameView extends BorderPane {
 ------------------------------------------------------------------------------------------------------------------
 
 public class GamePresenter {
+
     private GameView view;
     private Model model;
 
@@ -226,6 +230,7 @@ public class GamePresenter {
 ---------------------------------------------------------------------------------------------------------------------
 
 public class Model {
+
     private List<String> questionAsked = new ArrayList<>();
     private List<String> possibleSolutions = new ArrayList<>();
     private int currentQuestionIndex = 0;
@@ -286,6 +291,7 @@ public class Model {
 ----------------------------------------------------------------------------------------------------------------------------
 
 public class Speler {
+
     public String naam;
 
     public Speler(String naam) {
