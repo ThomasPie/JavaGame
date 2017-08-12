@@ -119,6 +119,7 @@ public class Model {
 -----------------------------------------------------------------------------------------------------------------------
 
 startView.getTgGroup().selectedToggleProperty().addListener(new ChangeListener<Toggle>() {
+
             @Override
             public void changed(ObservableValue<? extends Toggle> observable, Toggle oldValue, Toggle newValue) {
                 if (newValue != null) {
